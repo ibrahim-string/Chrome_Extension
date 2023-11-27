@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Text Summarizer",
+    "version": "1.0",
+    "description": "Summarize text with a click!",
+    "browser_action": {
+        "default_icon": {
+            "16": "icon.jpg",
+            "48": "icon.jpg",
+            "128": "icon.jpg"
+        },
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "storage"],
+    "icons": {
+        "16": "icon.jpg",
+        "48": "icon.jpg",
+        "128": "icon.jpg"
+    }
+}
